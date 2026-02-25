@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Large model weight duplicates (keep only root-level best.pt and best.onnx)
+# Exclude intermediate epoch checkpoints (keep only best/last)
+Runs/classify/runs/local_train/57cls_first4/weights/epoch*.pt
+
+# Exclude old/incomplete experiment runs (no results)
+Runs/classify/runs/local_train/57cls_first/
+Runs/classify/runs/local_train/57cls_first2/
+Runs/classify/runs/local_train/57cls_first3/
+
+# Duplicate ONNX in Runs root
+Runs/best.onnx
+
+# Exclude validation run outputs
+Runs/classify/val/
+
+# Pretrained base weights (not needed for inference)
+yolo26n-cls.pt
+yolo26n.pt
+
+# Notebooks (source code — users can reference README for usage)
+
