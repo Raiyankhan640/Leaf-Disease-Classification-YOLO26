@@ -1,0 +1,65 @@
+Overall Accuracy: 0.7988
+
+                                                  precision    recall  f1-score   support
+
+             Batol_Gourd__Alternaria_Leaf_Blight       0.80      0.77      0.79        31
+                        Batol_Gourd__Anthracnose       0.85      0.82      0.84        28
+                       Batol_Gourd__Downy_Mildew       0.96      0.83      0.89        29
+       Batol_Gourd__Early_Alternaria_Leaf_Blight       0.78      0.78      0.78        18
+                 Batol_Gourd__Fungal_Damage_Leaf       0.50      0.50      0.50         4
+                            Batol_Gourd__Healthy       1.00      0.96      0.98        26
+                       Batol_Gourd__Mosaic_Virus       0.84      1.00      0.91        32
+                           Chili__Bacterial_Spot       1.00      1.00      1.00        16
+                     Chili__Cercospora_Leaf_Spot       1.00      1.00      1.00        18
+                               Chili__Curl_Virus       1.00      1.00      1.00        43
+                             Chili__Healthy_Leaf       0.98      1.00      0.99        46
+                     Chili__Nutrition_Deficiency       1.00      1.00      1.00        45
+                               Chili__White_spot       1.00      1.00      1.00        20
+                          Eggplant__Healthy_Leaf       1.00      0.71      0.83         7
+                   Eggplant__Insect_Pest_Disease       0.75      0.90      0.82        10
+                     Eggplant__Leaf_Spot_Disease       1.00      0.92      0.96        12
+                  Eggplant__Mosaic_Virus_Disease       1.00      1.00      1.00         4
+                    Eggplant__Small_Leaf_Disease       0.67      1.00      0.80         2
+                          Eggplant__Wilt_Disease       0.88      1.00      0.93         7
+                              Lemon__Anthracnose       0.91      1.00      0.95        10
+                         Lemon__Bacterial_Blight       1.00      1.00      1.00        11
+                            Lemon__Citrus_Canker       1.00      1.00      1.00        18
+                               Lemon__Curl_Virus       1.00      0.92      0.96        12
+                          Lemon__Deficiency_Leaf       1.00      1.00      1.00        20
+                                 Lemon__Dry_Leaf       1.00      1.00      1.00        19
+                             Lemon__Healthy_Leaf       1.00      1.00      1.00        21
+                              Lemon__Sooty_Mould       1.00      1.00      1.00        16
+                             Lemon__Spider_Mites       1.00      1.00      1.00        12
+                     Rice__Bacterial_Leaf_Blight       0.64      0.81      0.72        42
+                                Rice__Brown_Spot       0.74      0.51      0.60        55
+                         Rice__Healthy_Rice_Leaf       0.97      0.86      0.91        37
+                                Rice__Leaf_Blast       0.64      0.73      0.68        62
+                                Rice__Leaf_scald       0.74      0.63      0.68        46
+                    Rice__Narrow_Brown_Leaf_Spot       0.40      0.58      0.47        33
+                                Rice__Rice_Hispa       0.93      0.93      0.93        45
+                             Rice__Sheath_Blight       0.92      0.79      0.85        58
+                            Tomato__Downy Mildew       0.50      0.67      0.57         6
+                                 Tomato__Healthy       0.69      0.93      0.79        29
+                                  Tomato__Mosaic       0.89      0.40      0.55        20
+                                    Tomato__Spot       0.83      0.91      0.87        32
+                              Tomato__white_spot       0.67      0.29      0.40         7
+            Zucchini_Original__Angular_Leaf_Spot       0.29      0.17      0.21        12
+                  Zucchini_Original__Anthracnose       0.31      0.31      0.31        13
+                  Zucchini_Original__Downy_Midew       0.27      0.19      0.22        16
+                     Zucchini_Original__Dry_Leaf       0.00      0.00      0.00         7
+                      Zucchini_Original__Healthy       0.45      0.56      0.50         9
+                Zucchini_Original__Insect_Damage       0.50      0.12      0.20         8
+        Zucchini_Original__Iron_Chlorosis_Damage       0.08      0.14      0.10         7
+        Zucchini_Original__Xanthomonas_Leaf_Spot       0.38      0.56      0.45         9
+          Zucchini_Original__Yellow_Mosaic_Virus       0.70      1.00      0.82        21
+           papaya_main_dataset__Bacterial_Blight       0.94      0.84      0.89        19
+         papaya_main_dataset__Carica_Insect_Hole       0.61      0.62      0.62        32
+         papaya_main_dataset__Curled_Yellow_Spot       0.85      0.85      0.85        54
+               papaya_main_dataset__Mosaic_Virus       0.56      0.42      0.48        12
+papaya_main_dataset__Yellow_Necrotic_Spots_Holes       1.00      0.50      0.67         6
+               papaya_main_dataset__healthy_leaf       0.77      0.89      0.83        19
+          papaya_main_dataset__pathogen_symptoms       0.67      0.76      0.71        29
+
+                                        accuracy                           0.80      1282
+                                       macro avg       0.77      0.76      0.75      1282
+                                    weighted avg       0.81      0.80      0.80      1282
