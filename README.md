@@ -386,7 +386,7 @@ papaya_main_dataset__Yellow_Necrotic_Spots_Holes       1.00      0.50      0.67 
 | `best.pt` | Best PyTorch checkpoint (highest val accuracy) | — |
 | `best.onnx` | ONNX exported model for cross-platform deployment | — |
 
-Intermediate checkpoints (every 10 epochs) are available in the training run directory for ablation studies.
+Both root-level weights and a copy inside `Runs/classify/runs/local_train/57cls_first4/weights/` are included for convenience. Epoch checkpoints and the final `last.pt` are excluded from the repository to keep the size manageable.
 
 ---
 
@@ -531,8 +531,13 @@ Leaf-Disease-Classification-YOLO26/
 │
 ├── README.md                          # This documentation
 ├── data_report.md                     # Detailed dataset description
+├── data_cleaning.md                   # Data cleaning and preprocessing notes
 ├── best.pt                            # Best model weights (PyTorch)
 ├── best.onnx                          # Best model weights (ONNX)
+│
+├── Notebooks/
+│   ├── agri.ipynb                     # Dataset exploration and analysis
+│   └── agrivsision-classification.ipynb  # Model training notebook
 │
 ├── Reports/
 │   └── baseline-100ep/
@@ -555,9 +560,7 @@ Leaf-Disease-Classification-YOLO26/
             ├── val_batch*_pred.jpg    # Validation predictions
             └── weights/
                 ├── best.pt            # Best checkpoint
-                ├── best.onnx          # ONNX export
-                ├── last.pt            # Last epoch checkpoint
-                └── epoch*.pt          # Periodic checkpoints
+                └── best.onnx          # ONNX export
 ```
 
 ---
