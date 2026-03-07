@@ -1,0 +1,3 @@
+Overall Top-1 Accuracy: 0.8969
+Overall Top-5 Accuracy: 0.9950
+Test set size: 1987
