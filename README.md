@@ -6,7 +6,7 @@
 
 <br/>
 
-[![Model](https://img.shields.io/badge/Model-YOLOv8s_Classification-blue?style=for-the-badge&logo=pytorch)](https://github.com/ultralytics/ultralytics)
+[![Model](https://img.shields.io/badge/Model-YOLO26s_Classification-blue?style=for-the-badge&logo=pytorch)](https://github.com/ultralytics/ultralytics)
 [![Top-1 Accuracy](https://img.shields.io/badge/Top--1_Accuracy-89.69%25-brightgreen?style=for-the-badge)](results/overall_metrics.txt)
 [![Top-5 Accuracy](https://img.shields.io/badge/Top--5_Accuracy-99.50%25-success?style=for-the-badge)](results/overall_metrics.txt)
 [![Classes](https://img.shields.io/badge/Classes-45-orange?style=for-the-badge)](results/per_class_accuracy.csv)
@@ -35,7 +35,7 @@
 
 ## 🌱 Overview
 
-A deep learning-based **universal plant disease classification system** capable of identifying **45 disease and health conditions** across **9 major crops**. Built on the **YOLOv8s image classification backbone**, this model was trained progressively — first for 35 epochs, then resumed and extended to **50 total epochs** — achieving robust performance on a held-out test set of **1,987 images**.
+A deep learning-based **universal plant disease classification system** capable of identifying **45 disease and health conditions** across **9 major crops**. Built on the **YOLO26s image classification backbone**, this model was trained progressively — first for 35 epochs, then resumed and extended to **50 total epochs** — achieving robust performance on a held-out test set of **1,987 images**.
 
 The system is designed for agricultural applications where rapid, accurate identification of plant diseases is critical for timely intervention and crop protection.
 
@@ -45,8 +45,8 @@ The system is designed for agricultural applications where rapid, accurate ident
 
 | Component | Detail |
 |-----------|--------|
-| **Base Model** | YOLOv8s (Small) Classification |
-| **Framework** | Ultralytics YOLOv8 |
+| **Base Model** | YOLO26s Classification |
+| **Framework** | Ultralytics YOLO26s |
 | **Input Resolution** | 384 × 384 pixels |
 | **Output Classes** | 45 |
 | **Model Size** | ~31.7 MB |
@@ -407,6 +407,6 @@ Some classes show lower accuracy due to limited test samples or visual similarit
 
 <div align="center">
 
-*Built with ❤️ using [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) · Trained on Google Colab*
+*Built with ❤️ using [Ultralytics YOLO26s](https://github.com/ultralytics/ultralytics) · Trained on Google Colab*
 
 </div>
